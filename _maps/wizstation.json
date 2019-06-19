@@ -1,0 +1,11 @@
+{
+    "map_name": "Wiz Station",
+    "map_path": "map_files/WizStation",
+    "map_file": "WizStation.dmm",
+    "shuttles": {
+	    "cargo": "cargo_box",
+	    "ferry": "ferry_fancy",
+	    "whiteship": "whiteship_box",
+	    "emergency": "emergency_box"
+    }
+}
