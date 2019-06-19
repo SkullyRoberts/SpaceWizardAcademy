@@ -23,8 +23,8 @@ GLOBAL_LIST_INIT(medical_positions, list(
 
 GLOBAL_LIST_INIT(science_positions, list(
 	"Dean of Theoretical Magicks",
-	"Scientist",
-	"Roboticist"))
+	"Magician",
+	"Mechromancer"))
 
 GLOBAL_LIST_INIT(supply_positions, list(
 	"Quartermaster",

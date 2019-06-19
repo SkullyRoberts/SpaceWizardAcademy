@@ -32,7 +32,7 @@ Research Director
 			            ACCESS_TECH_STORAGE, ACCESS_MINISAT, ACCESS_MAINT_TUNNELS, ACCESS_NETWORK)
 
 /datum/outfit/job/rd
-	name = "Research Director"
+	name = "Dean of Theoretical Magicks"
 	jobtype = /datum/job/rd
 
 	id = /obj/item/card/id/silver
@@ -51,7 +51,7 @@ Research Director
 	chameleon_extras = /obj/item/stamp/rd
 
 /datum/outfit/job/rd/rig
-	name = "Research Director (Hardsuit)"
+	name = "Dean of Theoretical Magicks (Hardsuit)"
 
 	l_hand = null
 	mask = /obj/item/clothing/mask/breath
@@ -63,7 +63,7 @@ Research Director
 Scientist
 */
 /datum/job/scientist
-	title = "Scientist"
+	title = "Magician"
 	flag = SCIENTIST
 	department_head = list("Research Director")
 	department_flag = MEDSCI
@@ -82,7 +82,7 @@ Scientist
 	minimal_access = list(ACCESS_TOX, ACCESS_TOX_STORAGE, ACCESS_RESEARCH, ACCESS_XENOBIOLOGY, ACCESS_MINERAL_STOREROOM)
 
 /datum/outfit/job/scientist
-	name = "Scientist"
+	name = "Magician"
 	jobtype = /datum/job/scientist
 
 	belt = /obj/item/pda/toxins
@@ -98,7 +98,7 @@ Scientist
 Roboticist
 */
 /datum/job/roboticist
-	title = "Roboticist"
+	title = "Mechromancer"
 	flag = ROBOTICIST
 	department_head = list("Research Director")
 	department_flag = MEDSCI
@@ -116,7 +116,7 @@ Roboticist
 	minimal_access = list(ACCESS_ROBOTICS, ACCESS_TECH_STORAGE, ACCESS_MORGUE, ACCESS_RESEARCH, ACCESS_MINERAL_STOREROOM)
 
 /datum/outfit/job/roboticist
-	name = "Roboticist"
+	name = "Mechromancer"
 	jobtype = /datum/job/roboticist
 
 	belt = /obj/item/storage/belt/utility/full
