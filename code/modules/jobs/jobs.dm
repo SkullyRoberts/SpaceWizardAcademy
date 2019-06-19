@@ -1,20 +1,20 @@
 GLOBAL_LIST_INIT(command_positions, list(
-	"Captain",
-	"Head of Personnel",
-	"Head of Security",
-	"Chief Engineer",
-	"Research Director",
-	"Chief Medical Officer",
+	"Headmaster",
+	"Dean of Student Affairs",
+	"Head Security Officer",
+	"Chief Thaumaturge",
+	"Dean of Theoretical Magicks",
+	"Dean of Healing",
 	"Quartermaster"))
 
 GLOBAL_LIST_INIT(engineering_positions, list(
-	"Chief Engineer",
+	"Chief Thaumaturge",
 	"Station Engineer",
 	"Atmospheric Technician"))
 
 
 GLOBAL_LIST_INIT(medical_positions, list(
-	"Chief Medical Officer",
+	"Dean of Healing",
 	"Medical Doctor",
 	"Geneticist",
 	"Virologist",
@@ -22,7 +22,7 @@ GLOBAL_LIST_INIT(medical_positions, list(
 
 
 GLOBAL_LIST_INIT(science_positions, list(
-	"Research Director",
+	"Dean of Theoretical Magicks",
 	"Scientist",
 	"Roboticist"))
 
@@ -32,7 +32,7 @@ GLOBAL_LIST_INIT(supply_positions, list(
 	"Shaft Miner"))
 
 GLOBAL_LIST_INIT(civilian_positions, list(
-	"Head of Personnel",
+	"Dean of Student Affairs",
 	"Bartender",
 	"Botanist",
 	"Cook",
@@ -45,7 +45,7 @@ GLOBAL_LIST_INIT(civilian_positions, list(
 	"Assistant"))
 
 GLOBAL_LIST_INIT(security_positions, list(
-	"Head of Security",
+	"Head Security Officer",
 	"Warden",
 	"Detective",
 	"Security Officer"))

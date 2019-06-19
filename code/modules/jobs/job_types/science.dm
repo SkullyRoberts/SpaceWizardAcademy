@@ -2,7 +2,7 @@
 Research Director
 */
 /datum/job/rd
-	title = "Research Director"
+	title = "Dean of Theoretical Magicks"
 	flag = RD_JF
 	department_head = list("Captain")
 	department_flag = MEDSCI

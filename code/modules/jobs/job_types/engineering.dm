@@ -2,7 +2,7 @@
 Chief Engineer
 */
 /datum/job/chief_engineer
-	title = "Chief Engineer"
+	title = "Chief Thaumaturge"
 	flag = CHIEF
 	department_head = list("Captain")
 	department_flag = ENGSEC
