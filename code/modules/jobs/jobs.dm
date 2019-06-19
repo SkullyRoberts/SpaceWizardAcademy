@@ -9,8 +9,8 @@ GLOBAL_LIST_INIT(command_positions, list(
 
 GLOBAL_LIST_INIT(engineering_positions, list(
 	"Chief Thaumaturge",
-	"Station Engineer",
-	"Atmospheric Technician"))
+	"Thaumaturge",
+	"Technical Thaumaturge"))
 
 
 GLOBAL_LIST_INIT(medical_positions, list(
