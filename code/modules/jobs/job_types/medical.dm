@@ -28,7 +28,7 @@ Chief Medical Officer
 			ACCESS_KEYCARD_AUTH, ACCESS_SEC_DOORS, ACCESS_MAINT_TUNNELS)
 
 /datum/outfit/job/cmo
-	name = "Chief Medical Officer"
+	name = "Dean of Healing"
 	jobtype = /datum/job/cmo
 
 	id = /obj/item/card/id/silver
@@ -49,7 +49,7 @@ Chief Medical Officer
 	chameleon_extras = list(/obj/item/gun/syringe, /obj/item/stamp/cmo)
 
 /datum/outfit/job/cmo/hardsuit
-	name = "Chief Medical Officer (Hardsuit)"
+	name = "Dean of Healing (Hardsuit)"
 
 	mask = /obj/item/clothing/mask/breath
 	suit = /obj/item/clothing/suit/space/hardsuit/medical
@@ -60,7 +60,7 @@ Chief Medical Officer
 Medical Doctor
 */
 /datum/job/doctor
-	title = "Medical Doctor"
+	title = "Healer"
 	flag = DOCTOR
 	department_head = list("Chief Medical Officer")
 	department_flag = MEDSCI
@@ -76,7 +76,7 @@ Medical Doctor
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CLONING, ACCESS_MINERAL_STOREROOM)
 
 /datum/outfit/job/doctor
-	name = "Medical Doctor"
+	name = "Healer"
 	jobtype = /datum/job/doctor
 
 	belt = /obj/item/pda/medical
@@ -97,7 +97,7 @@ Medical Doctor
 Chemist
 */
 /datum/job/chemist
-	title = "Chemist"
+	title = "Alchemist"
 	flag = CHEMIST
 	department_head = list("Chief Medical Officer")
 	department_flag = MEDSCI
@@ -115,7 +115,7 @@ Chemist
 	minimal_access = list(ACCESS_MEDICAL, ACCESS_CHEMISTRY, ACCESS_MINERAL_STOREROOM)
 
 /datum/outfit/job/chemist
-	name = "Chemist"
+	name = "Alchemist"
 	jobtype = /datum/job/chemist
 
 	glasses = /obj/item/clothing/glasses/science

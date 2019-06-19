@@ -15,10 +15,10 @@ GLOBAL_LIST_INIT(engineering_positions, list(
 
 GLOBAL_LIST_INIT(medical_positions, list(
 	"Dean of Healing",
-	"Medical Doctor",
+	"Healer",
 	"Geneticist",
 	"Virologist",
-	"Chemist"))
+	"Alchemist"))
 
 
 GLOBAL_LIST_INIT(science_positions, list(
