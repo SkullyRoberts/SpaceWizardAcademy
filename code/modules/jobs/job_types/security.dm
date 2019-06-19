@@ -8,7 +8,7 @@
 Head of Security
 */
 /datum/job/hos
-	title = "Head of Security"
+	title = "Head Security Officer"
 	flag = HOS
 	department_head = list("Captain")
 	department_flag = ENGSEC

@@ -2,7 +2,7 @@
 Captain
 */
 /datum/job/captain
-	title = "Captain"
+	title = "Headmaster"
 	flag = CAPTAIN
 	department_head = list("CentCom")
 	department_flag = ENGSEC
@@ -26,10 +26,10 @@ Captain
 
 /datum/job/captain/announce(mob/living/carbon/human/H)
 	..()
-	SSticker.OnRoundstart(CALLBACK(GLOBAL_PROC, .proc/minor_announce, "Captain [H.nameless ? "" : "[H.real_name] "]on deck!"))
+	SSticker.OnRoundstart(CALLBACK(GLOBAL_PROC, .proc/minor_announce, "Headmaster [H.nameless ? "" : "[H.real_name] "]has arrived!"))
 
 /datum/outfit/job/captain
-	name = "Captain"
+	name = "Headmaster"
 	jobtype = /datum/job/captain
 
 	id = /obj/item/card/id/gold
@@ -53,7 +53,7 @@ Captain
 	chameleon_extras = list(/obj/item/gun/energy/e_gun, /obj/item/stamp/captain)
 
 /datum/outfit/job/captain/hardsuit
-	name = "Captain (Hardsuit)"
+	name = "Headmaster (Hardsuit)"
 
 	mask = /obj/item/clothing/mask/gas/sechailer
 	suit = /obj/item/clothing/suit/space/hardsuit/captain
@@ -63,7 +63,7 @@ Captain
 Head of Personnel
 */
 /datum/job/hop
-	title = "Head of Personnel"
+	title = "Dean of Student Affairs"
 	flag = HOP
 	department_head = list("Captain")
 	department_flag = CIVILIAN
@@ -96,7 +96,7 @@ Head of Personnel
 
 
 /datum/outfit/job/hop
-	name = "Head of Personnel"
+	name = "Dean of Student Affairs"
 	jobtype = /datum/job/hop
 
 	id = /obj/item/card/id/silver
